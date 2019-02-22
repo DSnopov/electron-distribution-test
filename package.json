@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.6.1",
+  "version": "0.7.2",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -17,6 +17,11 @@
   },
   "build": {
     "appId": "com.github.iffy.electronupdaterexample",
+    "publish": [{
+      "provider": "github",
+      "owner": "DSnopov",
+      "repo": "electron-distribution-test"
+    }],
     "mac": {
       "category": "your.app.category.type",
       "target": [
